@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #d4e4e7; 
+   
+}
+body{
+    margin-left: 40px;
+    margin-right:40px
+}
+body p,li{
+    color:#848c99;
+}
+
+.Info{
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+}
+.right_section{
+    padding-right:50px;
+}
+img{
+    height: 120px;
+    width:120px;
+    border-radius: 50%;
+    border: 4px solid #ccc;
+    
+}
+.Info h2{
+    color:#03625C;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.Info p{
+    color:rgb(40, 22, 9);
+}
+
+.contact p{
+    color:black;
+    padding-top: 4px;
+}
+/* main section */
+/* title  */
+.title{
+    margin-top:10px;
+    font-size:20px;
+    text-transform: uppercase;
+    color:#043431
+
+}
+
+/* objective */
+.obj{
+    border-top: 2px solid #03625C;
+}
+
+.obj p{
+    padding-top: 8px;
+    font-size: 17px;
+    /* font-family: poppin; */
+    /* font-style: italic; */
+}
+
+/* Education */
+/* table */
+.edu table{
+
+    width:90%;
+    margin: auto;
+    margin-top: 10px;
+    border-collapse: collapse;
+    text-align: center;   
+    
+}
+.edu table td ,th{
+    border:2px solid #03625C;
+    padding:8px;
+    color:#848c99;
+
+}
+.edu table th{
+    font-size: 18px;
+    background-color:#03625C;
+}
+/* skill */
+
+.skill .box{
+    margin:10px 5px 0px 20px;
+    position:relative;
+    width:100%;
+    display: grid;
+    grid-template-columns: 150px 1fr; 
+    justify-content: center;
+    align-items: center;
+}
+.skill .box h4{
+    text-transform: uppercase;
+    color:#848c99;
+    font-weight: 500;
+}
+.skill .box .percent{
+    position: relative;
+    width: 100%;
+    height:10px;
+    background-color: #f0f0f0;
+
+
+}
+.skill .box .percent .per_style{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background-color: #03625C;
+}
+ul{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+ li{
+    font-size: 18px;  
+    
+}
+li i{
+    padding-right: 8px;
+}
+
+ li::marker{
+   
+    color:#03625C;
+    font-size: 1.5em;
+}

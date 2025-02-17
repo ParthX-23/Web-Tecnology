@@ -1,0 +1,45 @@
+*{
+    padding:0%;
+    margin:0%;
+ 
+}
+#nevbar{
+    height:60px;
+    color:White;
+    background-color:#0f1111;
+    
+    
+}
+#logo{
+    color: #ffA500;
+    font-size: 25px;
+    
+}
+button{
+    background-color: #f08804;
+}
+a{
+ margin-right:200px;   
+    
+    
+}
+.d{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    display:inline-block;
+  
+
+}
+footer{
+    text-align:center;
+    color:white;
+    background-color: #0f1111;
+   
+}
+body{
+    height: 500px;;
+}
+#content{
+    height:610px;
+}

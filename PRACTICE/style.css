@@ -1,0 +1,9 @@
+#box{
+    height:400px;
+    width:200px;
+    border:3px solid red;
+    background-color: black;
+    background-image: url(swapnanill.jpg);
+    background-size: cover;
+
+}

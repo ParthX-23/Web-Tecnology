@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:arial,popping;
+    box-sizing:border-box;
+   
+}
+
+body{
+    background-color: #000000;
+    color: white;
+}
+/* Create a navbar */
+header{
+    height:100vh;
+    width:100%;
+}
+
+nav{
+   height:70px;
+   width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+ 
+   
+}
+.logo{
+    
+    width: 200px;
+    height: 3.1rem;
+   
+    background-image: url(IMAGE/logo.png);
+    background-size: cover;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 80px;
+   
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.1rem;
+    position:relative;
+}
+nav ul li a::after{
+    content: '';
+    width:0;
+    height:3px;
+    background: #ff004f;
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    transition: 0.5s;
+    
+}
+nav ul li a:hover::after{
+    width:100%;
+
+}
+/* Home section*/
+
+.left{
+    height :80vh;
+    width :50%;
+    font-size: 30px;
+ 
+}
+.left h1{
+    font-size: 3.5rem;
+    margin-top:20px;
+    margin-left:20px;
+}
+.left-text{
+    margin-top: 7rem;
+    margin-left:3rem;
+
+}
+.left-text span{
+    color:#ff004f;
+}
+
+
+.right{
+    height :80vh;
+    width :50%;
+    margin-top: 1rem;
+  
+    background-image: url(IMAGE/img2.jpg);
+    background-size: cover;
+    background-position: center;
+ 
+}
+section{
+    margin-top: 50px;
+    display:flex;
+   justify-content: center ;
+   align-items: center;
+   flex-wrap: wrap; 
+}
+/* ------------------About------------> */
+.about{
+    margin:20px,0;
+    color:#ababab;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.col-1{
+    height:400px;
+    width:23%;
+    background-image: url(IMAGE/partha.jpg);
+    background-size: cover;
+}
+@media(width:600px){
+    .section{
+        display:flex;
+      
+        flex-wrap: wrap; 
+    }
+
+}

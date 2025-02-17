@@ -1,0 +1,156 @@
+* {
+    margin:0;
+    border:border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aliceblue;
+
+    background-color: #1616ed;
+}
+/* header */
+/* nav */
+.nav{
+   
+    height: 150px;
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+img{
+    height: 70px;
+}
+/* form name */
+.form_name{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+/* main */
+/* form body */
+.form_body{
+    height: 400px;
+    width:100%;
+    margin:40px 40px 40px 40px;
+    font-style: italic;
+    font-size: large; 
+    
+}
+/* color the star */
+.star{
+    color:red;
+}
+/* first name */
+.input_box{
+    height: 30px;
+    width: 30vw;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    font-style: italic;
+    background-color: aliceblue;
+    color:black;
+}
+
+
+.std_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.G_D{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+#gender select{
+    height: 30px;
+    width:30vw;
+    border:1px solid #ccc;
+    border-radius: 4px;    
+    font-style: italic;
+    background-color: aliceblue;
+    color: #A9A9A9;
+    
+}
+#DOB input{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color:#A9A9A9;
+}
+#c_code{
+    height:30px;
+    background-color: aliceblue;
+    color:#A9A9A9;
+    border:1px solid #ccc;
+    border-radius: 4px;
+}
+.contact{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+
+/* stop incress drecess buttonn of ph no input */
+input[type="number"]{
+    height:30px;
+    width:27vw;
+    outline:none;
+    -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance:none;
+    margin:0;
+}
+.address{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.ad1{
+    width: 30vw;
+    resize: none;
+    background-color: aliceblue;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    color:black;
+}
+.id_pass{
+    margin-left:9.1%;
+    margin-top:2vh;
+    
+}
+
+.id_pass .input_box{
+    width:90%;
+    
+}
+.password{
+    margin-top: 2vh;
+    
+}
+input[type="password"]{
+    -webkit-text-security:none;
+}
+
+
+/* footer */
+/* submit boutten */
+#submit{
+font-size: 20px;
+height: 40px;
+width: 40vh;
+border:1px solid #ccc;
+border-radius: 4px;
+background-color: rgb(231, 7, 7);
+}
+/* .sub_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+

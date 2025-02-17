@@ -1,0 +1,16 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+#one{
+    color:brown;
+    text-align: center;
+    text-transform: capitalize;
+}
+#two{
+    font-size: 25px;
+    color:red;
+}
+#three{
+    font-size:10px;
+    color:blue;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- form header -->
+    <header>
+      <nav class="nav">
+        <img src="image.png" alt="logo" />
+        <h1>BRAINWARE UNIVERSITY</h1>
+        <p>
+          Brainware University, 398, Ramkrishnapur Road, Near Jagadighata
+          Market, Barasat, Kolkata-700125
+        </p>
+      </nav>
+      <hr />
+      <div class="form_name">
+        <h2>Student Registration Form</h2>
+      </div>
+    </header>
+
+    <!-- form body -->
+    <hr />
+
+    <main>
+      <div class="form_body">
+        <form action="">
+          <!-- information -->
+          <div class="info">
+            <!-- student info -->
+            <div class="std_info">
+              <!-- first Name  -->
+              <div id="first_name">
+                <p>First Name<span class="star">*</span> :</p>
+                <input
+                  class="input_box"
+                  type="text"
+                  placeholder=" Enter Your First Name"
+                  required
+                />
+              </div>
+              <!-- Last name -->
+              <div id="last_name">
+                <p>Last Name<span class="star">*</span> :</p>
+                <input
+                  class="input_box"
+                  type="text"
+                  placeholder=" Enter Your Last Name"
+                  required
+                />
+              </div>
+            </div>
+            <!-- Gender & DOB -->
+            <div class="G_D">
+              <!-- gender -->
+              <div id="gender">
+                <p>Gender<span class="star">*</span> :</p>
+                <select name="gender" id="gen" required>
+                  <option value="" disabled selected>Select Please</option>
+                  <option value="1">Male</option>
+                  <option value="2">Female</option>
+                  <option value="3">Transgender</option>
+                </select>
+              </div>
+              <div id="DOB">
+                <p>Date of Birth<span class="star">*</span> :</p>
+                <input class="input_box" type="date" required />
+              </div>
+            </div>
+            <!-- contact  -->
+
+            <div class="contact">
+              <!-- phone numbeer  -->
+              <div id="ph_no">
+                <p>Phone Number<span class="star">*</span> :</p>
+                <!-- country code -->
+                <select name="countr_code" id="c_code" required>
+                  <option value="" disabled selected>+00</option>
+                  <option value="1">+91</option>
+                  <option value="2">+81</option>
+                  <option value="3">+71</option>
+                  <option value="4">+88</option>
+                </select>
+                <input
+                  class="input_box"
+                  type="number"
+                  placeholder="(000)000-0000"
+                  required
+                />
+              </div>
+              <!-- gmail-->
+              <div id="gmail">
+                <p>Gmail<span class="star">*</span> :</p>
+                <input
+                  class="input_box"
+                  type="text"
+                  placeholder=" example@gmail.com"
+                  required
+                />
+              </div>
+            </div>
+            <!-- Addresss -->
+            <div class="address">
+              <!-- add-1 -->
+              <div id="adrs1">
+                <p>Address line 1<span class="star">*</span>:</p>
+                <textarea
+                  name="Address1"
+                  class="ad1"
+                  placeholder="Enter your address"
+                  rows="5"
+                ></textarea>
+              </div>
+              <!-- add-2 -->
+              <div id="adrs2">
+                <p>Address line 2:</p>
+                <textarea
+                  name="Address1"
+                  class="ad1"
+                  placeholder="Enter your address"
+                  rows="5"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="id_pass">
+            <div class="user_Id">
+              <p>User_ID <span class="star">*</span>:</p>
+              <input class="input_box" type="text" placeholder="example1223">
+            </div>
+            
+            <div class="password">
+              <p>Password <span class="star">*</span>:</p>
+              <input class="input_box" type="password">
+            </div>
+
+          </div>
+        </form>
+      </div>
+    </main>
+
+
+
+    <!-- footer -->
+
+    <!-- <footer>
+      <div class="sub_button">
+        <input type="submit" value="Submit" id="submit">
+      </div>
+    </footer> -->
+  </body>
+</html>

@@ -29,7 +29,7 @@ img{
 /* main */
 /* form body */
 .form_body{
-    height: 400px;
+    
     width:100%;
     margin:40px 40px 40px 40px;
     font-style: italic;
@@ -133,8 +133,8 @@ input[type="number"]::-webkit-inner-spin-button{
     margin-top: 2vh;
     
 }
-input[type="password"]{
-    -webkit-text-security:none;
+.password input[type="password"]{
+    --webkit-password-security:'*';
 }
 
 
@@ -148,9 +148,9 @@ border:1px solid #ccc;
 border-radius: 4px;
 background-color: rgb(231, 7, 7);
 }
-/* .sub_button{
+.sub_button{
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
 

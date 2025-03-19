@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+nav{
+    height:5rem;
+    width:100%;
+}
+#template{
+    height:10rem;
+    width:100%;
+
+}
+/* for a image div */
+.choice{
+    height:160px;
+    width:160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.choice img{
+ height:170px;
+ width:170px;
+ object-fit: cover;
+ 
+ border-radius: 50%;
+ 
+}
+.choices{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    margin-top: 8rem;
+}
+.choice:hover{
+    cursor:pointer;
+    box-shadow: 5px 5px 5px 5px rgb(65, 105, 224);
+    background-color: rgb(65, 105, 224);
+}
+/* score board */
+.score_board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap:8rem;
+    margin-top: 5rem;
+}
+#User_score,#computer_score{
+    font-size: 4rem;
+}

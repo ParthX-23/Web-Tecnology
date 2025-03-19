@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>job Application Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- nav bar -->
+         
+        <header>
+            <div class="navbar">
+                <h1>Job Application Registation</h1>
+            </div>
+        </header>
+        
+        <main>
+            <div class="form_body">
+                <form class="form1"action="#">
+                    
+                    <!-- name -->
+                    <div class="Info">
+                        <div class="name">
+                            <h3>Full Name:</h3>
+                            <input type="text" class="input_box">
+                        </div>
+                        
+                    </div>
+                    <!-- email address -->
+                    <div class="Info">
+                        <div class="email">
+                            <h3 class="title">Email Address:</h3>
+                            <input type="email" name="email" id="email" class="input_box">
+                        </div>
+                    </div>
+                       
+                    <!-- phone number -->
+                    <div class="Info">
+                        <div class="phone">
+                            <h3 class="title">Phone Number:</h3>
+                            <input type="tel" class="input_box">
+                        </div>
+                    </div>
+                        
+                    <!-- file uplode -->
+                    <div class="Info">
+                        <div class="resume">
+                            <h3 class="title">Resume(PDF or word):</h3>
+                            <div    class="blank_box">
+                                <input type="file" name="file" id="file" accept=".pdf,.doc,.docx">
+                            
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- position applied -->
+                    <div class="Info">
+                        <div class="position">
+                            <h3 class="title">Position Applied:</h3>
+                        
+                            <select name="position" id="position">
+                                <option value="" selected disabled>Select Position</option>
+                                <option value="1">Professor</option>
+                                <option value="2">Associate Professor</option>
+                                <option value="3">Assistant Professor</option>
+                                <option value="4">Lecturer</option>
+                            </select>
+                        </div>
+                       
+                    </div>
+                    <div class="Info">
+                        <div class="resume">
+                            <h3 class="title">Enter Password</h3>
+                            <div    class="blank_box">
+                                <input type="password" name="password" id="password" >
+                            
+                            </div>
+                        </div>
+                    <!-- create submit button -->
+                     <div class="submit">
+                       <input type="submit" value="Submit Application" class="sub_button">
+                     </div>
+    
+                </form>
+            </div> 
+        </main>
+        
+    </body>
+    </html>
+    
+    
+
+
+    <script src="scr.js">
+     
+    </script>
+</body>
+</html>

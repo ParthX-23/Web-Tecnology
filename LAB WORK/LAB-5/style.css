@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:broder-box;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+nav{
+    height:80px;
+    background-color: #0e0e0e;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+/* logo */
+ .logo img{
+    height:70px;
+    width:200px;
+    margin-left: 10px;
+    object-fit: cover;   
+}
+
+/* Create a panel  */
+/*  */
+/*  */
+.panel{
+    height:40px;
+    background-color: #4c6886;
+    color:#ffffff;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel-opps a{
+    
+    text-decoration: none;
+    margin-left:15px;
+    color:#ffffff;
+
+}
+.panel-opps{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:90%;
+   
+}
+/* first_section */
+
+.first_section  {  
+    height: 200px; 
+    width:100%;
+    background-color: #3C3C3C;
+}
+/* Second section
+ */
+.second_section{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second_section .left_Ss{
+    height: 180px; 
+    width:50%;
+    background-color: #646464; 
+}
+.second_section .right_Ss{
+    height: 180px;
+    width:50%;
+    background-color: #B5B5B5;  
+}
+/* third section */
+.third_sectioon{
+    height: 180px;
+    width:100%;
+    background-color:#F3F3F3;
+}
+/* copy right section */
+.cpy_section{
+    height:48px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+    background-color:#0A1E1E ;
+    gap:8px;
+
+}

@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.multipicationTable h2{
+    text-align: center;
+    color:#fff;
+    background-color: #007BFF;
+}
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: #007BFF;
+    color: white;
+}

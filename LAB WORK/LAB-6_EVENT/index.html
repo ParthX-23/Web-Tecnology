@@ -42,14 +42,16 @@
                             <h3 class="title">Email Address:</h3>
                             <input type="email" name="email" id="email" class="input_box">
                         </div>
+                        <p class="runTimeMsg" id="eMsg"></p>
                     </div>
                        
                     <!-- phone number -->
                     <div class="Info">
                         <div class="phone">
                             <h3 class="title">Phone Number:</h3>
-                            <input type="tel" class="input_box">
+                            <input type="tel" class="input_box" id="phone">
                         </div>
+                        <p class="runTimeMsg" id="pMsg"></p>
                     </div>
                         
                     <!-- file uplode -->
@@ -82,10 +84,22 @@
                         <div class="resume">
                             <h3 class="title">Enter Password</h3>
                             <div    class="blank_box">
-                                <input type="password" name="password" id="password" >
+                                <input type="password" name="password" id="password" class="passFild">
                             
                             </div>
+                            <p class="runTimeMsg" id="passMsg"></p>
                         </div>
+                        <!--Conform  PassWord -->
+                        <div class="Info">
+                            <div class="resume">
+                                <h3 class="title">Conform Password</h3>
+                                <div    class="blank_box">
+                                    <input type="password" name="password" id="confpass" 
+                                    class="passFild">
+                                
+                                </div>
+                                <p class="runTimeMsg" id="conPassMsg"></p>
+                            </div>    
                     <!-- create submit button -->
                      <div class="submit">
                        <input type="submit" value="Submit Application" class="sub_button">
@@ -95,14 +109,8 @@
             </div> 
         </main>
         
-    </body>
-    </html>
-    
-    
-
-
-    <script src="scr.js">
+        <script src="scr.js">
      
-    </script>
-</body>
+        </script>
+    </body>
 </html>

@@ -60,11 +60,12 @@ body{
 }
 
 /* create password */
-.blank_box #password{
+.blank_box .passFild{
     height:100%;
     width:100%;
     border-style: none;
 }
+
 /* submit button */
 .sub_button{
     margin-top: 30px;
@@ -76,3 +77,10 @@ body{
     border-style:none;
 }
 
+.runTimeMsg{
+    font-size: 0.73rem;
+    font-style: italic;
+    font-weight: 300;
+    opacity:70%;
+    margin-top: 5px;
+}

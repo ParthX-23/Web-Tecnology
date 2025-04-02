@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+/* form body */
+body {
+  background-color: rgb(205, 244, 244);
+  margin: 0 80px 0 80px;
+  
+}
+.Std_registation{
+    background-color: #fff;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height:25vh;
+  border-bottom: 2px solid #b8b5b5;
+}
+.title{
+    text-transform: uppercase;
+    color:rgb(92, 32, 32)
+}
+.left_Section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left_Section img{
+    position: relative;
+    height: 8em;
+    width:8em;
+    height:100px;
+    border-radius: 50%;
+    overflow:hidden;
+    padding-right:10px ;
+}
+.left_Section .title{
+    font-size: 2em;
+    font-weight: 650;
+}
+/* right section */
+.right_section .title{
+    font-size: 1.5em;
+    font-weight: 650;
+}
+.right_section p{
+    color:rgb(66, 67, 94);
+    font-size: 0.8em;
+    font-weight: 400;
+}
+/* form body */
+.formBody{
+    margin:20px 60px 20px 60px;
+   
+    
+}
+
+/* student registation form */
+
+.formBody .form_title .title{
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    color:#2C3345;
+}
+/* basic information title */
+.formBody .heading{
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #dee0e6;
+    border-radius: 4px 4px 4px 4px;
+}
+.formBody .heading span{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* form information */
+.formBody p{
+    font-size: 0.8em;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.formBody h3{
+    font-size: 1.3em;
+    font-weight: 300;
+}
+/* for input box */
+.formBody .input_box{
+    height:40px;
+    width:100%;
+    background-color: white;
+    padding: 0px 10px;
+    margin-top: 1rem;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    color:black;
+}
+/* for select porntion */
+.formBody select{
+    height:40px;
+    width:100%;
+    padding: 0px 15px;
+    margin-top: 1rem;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    color:#585454
+  
+
+    
+}
+
+.stdInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.stdInfo .name{
+    width: 32.8%;
+}
+
+
+.stdInfo #midleName  {
+    padding-top: 28px;
+}
+.stdInfo #lastName{
+    padding-top: 28px;
+}
+/* left and right section of from  after student info part*/
+.formBody .left{
+    width:45%;
+}
+.formBody .right{
+    width:45%;
+}
+
+/* student number and year */
+.student_year{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Degree program and Email */
+.degree_email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+/* phone number and Network provaider */
+.phone_network{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+/* address */
+.address{
+    margin-top: 20px;
+}
+.address .city_state{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.code_country{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+/* print and submit button */
+.print_submit{
+  margin-top: 20px;
+  text-align: center;
+}
+.print_submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:120px;
+    border-top: 2px solid #b8b5b5;
+    border-bottom: 2px solid #b8b5b5;
+}
+.print_submit #print{
+    height:45px;
+    width:150px;
+    background-color: #fff;
+    border-radius: 4px 4px 4px 4px;
+}
+.print_submit #submit{
+    height:45px;
+    width:250px;
+    margin-left: 15px;
+    color:#fff;
+    background-color: black;
+    border-radius: 4px 4px 4px 4px;
+    
+}
+.tail{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.tail a{
+    color:#7e7979;
+    margin-left: 30px;
+}

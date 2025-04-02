@@ -19,3 +19,7 @@ let gameBtn=document.querySelector("#gbutton");
 gameBtn.addEventListener("click",()=>{
     window.location.href="PROJECT-3_ROCK_PAPER_SCISSORS/game.php";
 });
+let gretestBtn=document.querySelector("#gretest_button");
+gretestBtn.addEventListener("click",()=>{
+    window.location.href="Gretest_number/gretestNumber.php";
+});

@@ -1,104 +1,100 @@
-*{
-    margin:0;
-    padding:0;
-    text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
-nav{
-    height:4rem;
-    width:100%;
-    color:#fff;
-    background-color:#09122C;
+nav {
+  height: 4rem;
+  width: 100%;
+  color: #fff;
+  background-color: #09122c;
 }
-nav h1{
-    line-height: 4rem;
-    font-size: 2rem;;
+nav h1 {
+  line-height: 4rem;
+  font-size: 2rem;
 }
-body{
-    background-color:#FDFBEE ;
+body {
+  height:100vh;
+  background: linear-gradient(to bottom,#09122c #dace82, #09122c);
 }
-#template{
-    height:10rem;
-    width:100%;
-
+#template {
+  height: 10rem;
+  width: 100%;
 }
 /* for a image div */
-.choice{
-    height:190px;
-    width:170px;
-    border-radius: 2rem;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    
-
+.choice {
+  height: 190px;
+  width: 170px;
+  border-radius: 2rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
-.choice img{
- height:100%;
- width:100%;
- object-fit: cover;
- padding: 1.5rem;
-
- 
+.choice img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 1.5rem;
 }
-.choices{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap:3rem;
-    margin-top:100px;
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 100px;
 }
-.choice:hover{
-    cursor:pointer;
-    background-color:#B4EBE6;
-    box-shadow: 2px 2px 2px 2px #80CBC4;
+.choice:hover {
+  cursor: pointer;
+  background: linear-gradient(to top, #fdfbee, #09122c);
+  box-shadow: 2px 2px 2px 2px linear-gradient(to bottom, #fdfbee, #09122c);;
 }
 /* score board */
-.score_board{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    gap:8rem;
-    margin-top: 3rem;
+.score_board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-size: 2rem;
+  gap: 8rem;
+  margin-top: 3rem;
 }
-#User_score,#computer_score{
+#User_score,
+#computer_score {
+  color:#fff;
+  font-size: 4rem;
+}
+.msg_container {
+  margin-top: 3rem;
+}
 
-    font-size: 4rem;
-}
-.msg_container{
-    margin-top:3rem;
-}
-
-#msg{
-   
-    background-color: #1D1616;
-    color:#fff;
-    font-size: 2rem;
-    display: inline;
-    padding:1rem;
-    border-radius: 0.5rem;
+#msg {
+  background-color: #1d1616;
+  color: #fff;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 /* game info */
-.gameInfo{
-    height:200px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap:8rem;
-    margin-top:3rem;
-    
+.gameInfo {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  margin-top: 3rem;
 }
-.userChoice{
-    margin-top: 1.5rem;
-    height:190px;
-    width:170px;
-    background-color: #80CBC4;
+.userChoice {
+  margin-top: 1.5rem;
+  height: 190px;
+  width: 170px;
+  background-color: #80cbc4;
 }
-.comChoice{
-    margin-top: 1.5rem;
-    height:190px;
-    width:170px;
-    background-color: #80CBC4;
+.comChoice {
+  margin-top: 1.5rem;
+  height: 190px;
+  width: 170px;
+  background-color: #80cbc4;
 }

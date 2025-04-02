@@ -12,7 +12,7 @@
         <h1>SURVEY FORM</h1>
         <p>We appreciate your participation in our industry. Please take the survey & leave a remark below to help with future improvement.</p>
         
-        <form>
+        <form action="formData.php "method="POST">
             <label for="name">Name</label>
             <input type="text" id="name" name="name">
             
